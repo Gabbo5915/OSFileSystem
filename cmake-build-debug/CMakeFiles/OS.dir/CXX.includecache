@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/gabbo/Documents/GitHub/OSFileSystem/OS.h
+cstdio
+-
+memory.h
+-
+string
+-
+iostream
+-
+stdlib.h
+-
+time.h
+-
+
+/Users/gabbo/Documents/GitHub/OSFileSystem/open.cpp
+OS.h
+/Users/gabbo/Documents/GitHub/OSFileSystem/OS.h
+
